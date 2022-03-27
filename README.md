@@ -8,4 +8,5 @@
 * [`git diff`](https://git-scm.com/docs/git-diff/pt_BR): Exibe as alterações feitas em um arquivo/item antes de ser enviado ao repositório.
 * [`git checkout nome-do-arquivo`](https://git-scm.com/docs/git-checkout): Caso seu arquivo tenha sido editado, porém antes de ser adicionado ou comitado, é possível reverter através do checkout, porém o comando checkout não ser apenas para isso.
 * [`git reset HEAD nome-do-arquivo`](https://git-scm.com/docs/git-reset): Você restaura um arquivo que vc já havia adicionado/commitado mas antes de enviar para o repositório. Existem 3 variações de flags pricipais, a `--soft` (Não altera o index ou o working-tree, mantém tudo como estava, apenas devolvendo pra um estado antes de adicionar ou commitar), `--mixed` (Reseta o index mas mantém o working tree) e `--hard` (reseta o index e o working tree)
-* 
+PS. O `git reset` deve ser utilizado comm parcimônia, as alterações feitas nele podem influenciar em toda a pipeline caso seja um repositório que esteja sendo acessado por várias pessoas e as alterações interfiram em arquivos que já fossem enviados para o repositório remoto.
+*  
