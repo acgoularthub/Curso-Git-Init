@@ -12,4 +12,8 @@ PS. O `git reset` deve ser utilizado comm parcimônia, as alterações feitas ne
 *  [`git checkout -b nome-da-branch`](https://git-scm.com/docs/git-checkout): Cria uma branch nova, podendo ser utilizado como um "checkpoint" para voltar ao estado anterior.
 *  [`git checkout nome-da-branch`](https://git-scm.com/docs/git-checkout): Seleciona uma branch existente, podendo ser utilizado para voltar ao estado anterior.
 *  [`git branch -d nome-da-branch`](https://git-scm.com/docs/git-branch): Deleta uma branch existente.
-*  
+*  [`git stash`](https://git-scm.com/docs/git-stash): Salva o estado atual do repositório, podendo ser utilizado para voltar ao estado anterior.
+*  [`git stash apply`](https://git-scm.com/docs/git-stash): Aplica o stash, caso tenha sido salvo.
+*  `git config --global alias.stash "stash -u"`: Alias para o comando `git stash`.
+*  [`git stash list`](https://git-scm.com/docs/git-stash): Lista os stashes.
+*  [`git stash drop`](https://git-scm.com/docs/git-stash): Deleta um stash.
