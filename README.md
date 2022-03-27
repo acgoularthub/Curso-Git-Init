@@ -17,3 +17,5 @@ PS. O `git reset` deve ser utilizado comm parcimônia, as alterações feitas ne
 *  `git config --global alias.stash "stash -u"`: Alias para o comando `git stash`.
 *  [`git stash list`](https://git-scm.com/docs/git-stash): Lista os stashes.
 *  [`git stash drop`](https://git-scm.com/docs/git-stash): Deleta um stash.
+* [`git tag`](https://git-scm.com/docs/git-tag/pt_BR): Cria um tag no repositório. `git tag -a nome-do-tag` cria um tag com o nome `nome-do-tag` e `git tag -a nome-do-tag -m "mensagem"` cria um tag com o nome `nome-do-tag` e a mensagem `mensagem`.
+* `git push origin main --tags`: Envia o repositório para o branch `main` do repositório remoto `origin` e também envia as tags.
